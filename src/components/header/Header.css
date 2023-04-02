@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    width: 1240px;
+    height: 68px;
+    padding-left: 100px;
+    padding-top: 40px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    width: 309px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navText{
+    color: #FF6060;
+    text-decoration : none;
+    font-size: 24px;
+}
+
+.navText:hover{
+    text-decoration: underline;
+}
+
