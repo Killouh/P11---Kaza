@@ -1,9 +1,16 @@
 .body-home {
-    margin-top: 70px;
+    margin-top: 60px;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_home{
+    border-radius: 25px;
+    object-fit: cover;
 }
 
 .title_home {
-    /* Chez vous, partout et ailleurs */
     position: absolute;
     z-index: 3;
     font-family: "Montserrat", sans-serif;
@@ -11,34 +18,54 @@
     font-weight: normal;
     font-size: 48px;
     line-height: 142.6%;
-    left: 45%;
-    top: 50%;
+    left: 50%;
+    bottom: 62%;
     color: #FFFFFF;
     transform: translate(-50%, -50%);
     width: 100%;
     margin: 0;
     text-align: center;
+    text-shadow: 2px 2px 4px #000000;
 }
-
-.bgd {
-    position: absolute;
-    /* width: 90%; */
-    height: 100%;
-    margin: auto;
-    background: rgba(0,0,0,.5);
-    z-index: 2;
-    border-radius: 25px;
-}
-
 /* BACKGROUND LOCATIONCARD - HOME PAGE */
 .background {
-    width: 81%;
+    width: 80%;
     margin: 20px auto;
     background: #F7F7F7;
     border-radius: 25px;
+    width: 1240px;
 }
 
 .location-card-info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.location-card-container {
+    position: relative;
+    margin: 20px;
+}
+
+.location-card-img {
+    height: 340px;
+    width: 340px;  
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.location-card-title {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    padding: 5px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
 }
