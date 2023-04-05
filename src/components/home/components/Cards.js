@@ -2,9 +2,8 @@ import React from 'react';
 import './Cards.css';
 import data from "../../../data/data.json";
 import {useState, useEffect} from 'react';
-import { useParams, Link} from "react-router-dom";
+import { useParams} from "react-router-dom";
 
-// -------------------------------------------
 
 export default function LocationCard(props) {
     const [location, setLocation] = useState({title:"",description:"",cover:"", tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}}); // Version page detail, revoir les données appellées

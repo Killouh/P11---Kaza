@@ -1,0 +1,46 @@
+.unknown_title {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 288px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FF6060;
+    margin-left: 30%;
+}
+
+.unknown_text p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #FF6060;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.backhome {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 8%;
+    color: #FF6060;
+
+}
