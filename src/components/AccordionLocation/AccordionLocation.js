@@ -8,8 +8,7 @@ export default function AccordionLocation(props) {
   const [setRotate, setRotateState] = useState("accordionlocation_icon");
 
   const content = useRef(null);
-  
-// Voir notes avant fusion pour simplifier les classes
+
   function toggleAccordionLocation() {
     let newActive = "";
     let newHeight = "0px";

@@ -19,3 +19,11 @@
     font-size: 12px;
 }
 
+
+@media (max-width: 375px) {
+
+
+    .tag { 
+        width:100px;
+    }
+}

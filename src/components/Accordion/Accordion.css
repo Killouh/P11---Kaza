@@ -1,0 +1,112 @@
+/* STYLE ACCORDION SECTION */
+.accordion__section {
+    display: flex;
+    flex-direction: column;
+}
+  
+/* STYLE BUTTON */
+.accordion {
+    width: 80%;
+    height: 47px;
+    border-radius: 5px;
+    background-color: #FF6060;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin: auto;
+/* transition: background-color 0.6s ease; */
+}
+  
+/* STYLE CONTENT TITLE */
+.accordion__title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* STYLE CHEVRON */
+.accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+/* ROTATION */
+.rotate {
+    transform: rotate(90deg);
+}
+
+/* STYLE ACCORDION PANEL */
+.accordion__content {
+    background-color: #F6F6F6;
+    overflow: auto;
+    transition: max-height 0.6s ease;
+    height: 117px;
+    width: 89%;
+    left: 0px;
+    top: 38px;
+    border-radius: 5px;
+}
+
+/* STYLE TEXT */
+.accordion__text {
+    color: #FF6060;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px;
+}
+
+/* CONTAINER */
+
+.accordion-container {
+    margin-bottom: 20px;
+    /* margin-right: none; */
+    position: relative;
+}
+
+
+@media (max-width: 375px) {
+
+    .accordion {
+        width: 335px;
+        height: 29.93px;
+    }
+
+    .accordion__title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .accordion__content {
+        margin:auto;
+    }
+
+    /* STYLE TEXT */
+    .accordion__text {
+        color: #FF6060;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+
+        padding: 18px;
+        padding-top: 5px;
+
+    }
+
+    /* STYLE ACCORDION PANEL */
+    .accordion__content {
+        width: 335px;
+    }
+
+    .accordion-container {
+        margin-top: 20px;
+        margin-left:-2px;
+    }
+}

@@ -1,0 +1,36 @@
+.footer{
+    height: 209px;
+    border-radius: 0px;  
+    background-color: black;
+}
+
+.logoKasaFooter{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.legal{
+    color: white;
+    font-size: 24px;
+}
+
+@media (max-width: 375px) {
+    .footer{
+        height: 209px;
+        border-radius: 0px;  
+        background-color: black;
+    }
+
+    .logoKasaFooter{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    
+    .legal{
+        color: white;
+        font-size: 12px;
+    }
+}
+
+
+

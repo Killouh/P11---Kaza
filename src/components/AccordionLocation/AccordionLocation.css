@@ -53,3 +53,13 @@
     font-size: 16px;
     padding: 18px;
 }
+
+@media (max-width: 375px) {
+    .accordionlocation{
+        width: 335px;
+    }
+    .accordionlocation_content{
+        width: 335px;
+    }
+    
+}

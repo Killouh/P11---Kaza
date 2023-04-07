@@ -5,11 +5,11 @@ import data from "../../data/data.json";
 import './CardsPage.css';
 
 // ------- COMPONENTS -------------
-import AccordionLocation from './components/AccordionLocation/AccordionLocation';
-import Avatar from './components/Avatar/Avatar';
-import Tag from './components/Tag/Tag';
-import Slideshow from './components/Slideshow/Slideshow';
-import Stars from './components/Stars/Stars';
+import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
+import Avatar from '../../components/Avatar/Avatar';
+import Tag from '../../components/Tag/Tag';
+import Slideshow from '../../components/Slideshow/Slideshow';
+import Stars from '../../components/Stars/Stars';
 
 
 
@@ -35,7 +35,7 @@ export default function LocationPage() {
 return (
 <div className="body_location_page">
             <div className="slideshow_location">
-                <Slideshow img={location.pictures}/>
+                <Slideshow className="slideshow_location_img"  img={location.pictures}/>
             </div>
 
             <div className="presentation">

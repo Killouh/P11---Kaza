@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useEffect } from "react";
 import './Unknown.css';
-import { Link} from "react-router-dom";
+import { Link, useNavigate} from "react-router-dom";
 
 // -------------------------------
 
 export default function NoMatch () {
+    const navigate = useNavigate();
+    useEffect(() => {
+        navigate('/404');
+      }, [navigate]);
+    
     return (
         <div className="unknown_container">
             <h1 className="unknown_title"> 404</h1>
