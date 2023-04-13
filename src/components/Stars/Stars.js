@@ -1,12 +1,14 @@
 import React from 'react';
 import './Stars.css';
+import fullStar from '../../assets/stars.png';
+import emptyStar from '../../assets/star-empty.png';
 
 const ColoredStar = () => {
-    return <img src="../stars.png" alt="stars" />
+    return <img src={fullStar} alt="stars" />
 }
 
 const EmptyStar = () => {
-    return <img src="../star-empty.png" alt="stars" />
+    return <img src={emptyStar}alt="stars" />
 }
 
 export default function Stars(props) {

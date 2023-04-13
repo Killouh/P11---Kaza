@@ -1,6 +1,7 @@
 import React from 'react';
 import Accordion from "../../components/Accordion/Accordion";
 import './About.css';
+import bgAbout from '../../assets/aboutbackgroundimage.png';
 
 
 function About() {
@@ -9,7 +10,7 @@ function About() {
     <div className="body-about">
         <div className="background_title_about">
             <div className="title_img_about">
-                <img className="img_img_about" src="../aboutbackgroundimage.png" alt="bgdimg"/>
+                <img className="img_img_about" src={bgAbout} alt="bgdimg"/>
             </div>
         </div>
 

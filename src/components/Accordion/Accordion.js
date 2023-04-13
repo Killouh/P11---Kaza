@@ -1,10 +1,6 @@
 import React, { useState, useRef } from "react";
 import Chevron from "./Chevron";
-
-// STYLE
 import "./Accordion.css";
-
-// --------------------------------------------------------------
 
 export default function Accordion(props) {
   const [setActive, setActiveState] = useState("");

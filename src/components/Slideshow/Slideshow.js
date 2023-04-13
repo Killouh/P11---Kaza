@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Slideshow.css'
+import leftChevron from '../../assets/chevron-left.png'
+import rightChevron from '../../assets/chevron-right.png'
 
 export default function Slideshow(props) {
 
@@ -33,8 +35,8 @@ export default function Slideshow(props) {
     if (props.img.length > 1) {
         slideshowControls = (
             <div className={'slideshow_controls'}>
-                <img src="../chevron-left.png" alt="chevron-gauche" className={'chevron'} onClick={onPrev} />
-                <img src="../chevron-right.png" alt="chevron-droite" className={'chevron'} onClick={onNext} />
+                <img src={leftChevron} alt="chevron-gauche" className={'chevron'} onClick={onPrev} />
+                <img src={rightChevron} alt="chevron-droite" className={'chevron'} onClick={onNext} />
             </div>
         );
     }
