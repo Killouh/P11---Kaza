@@ -1,3 +1,59 @@
+.accordionlocation_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordionlocation {
+    width: 500px;
+    height: 52px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+/* transition: background-color 0.6s ease; */
+}
+
+.accordionlocation_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+}
+
+.accordionlocation_icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+
+.rotate {
+    margin-left: auto;
+    transform: rotate(90deg);
+}
+
+.accordionlocation_content {
+    background-color: #F6F6F6;
+    overflow: auto;
+    transition: max-height 0.6s ease;
+    height: 249px;
+    width: 500px;
+    left: 0px;
+    top: 38px;
+    border-radius: 10px;
+}
+
+.accordionlocation_text {
+    color: #FF6060;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px;
+}
+
 /* STYLE ACCORDION SECTION */
 .accordion__section {
     display: flex;
@@ -6,7 +62,7 @@
   
 /* STYLE BUTTON */
 .accordion {
-    width: 80%;
+    width: 100%;
     height: 47px;
     border-radius: 5px;
     background-color: #FF6060;
@@ -39,6 +95,20 @@
 .rotate {
     transform: rotate(90deg);
 }
+.container{
+    width: 100%;
+}
+
+.accordion__container{
+    display: flex;
+    width:80%;
+    justify-content: center;
+}
+
+.accordion__section{
+    display: flex;
+    justify-content: center;
+}
 
 /* STYLE ACCORDION PANEL */
 .accordion__content {
@@ -46,7 +116,8 @@
     overflow: auto;
     transition: max-height 0.6s ease;
     height: 117px;
-    width: 89%;
+    width: 80%;
+    margin: auto;
     left: 0px;
     top: 38px;
     border-radius: 5px;
@@ -69,9 +140,14 @@
     position: relative;
 }
 
-
 @media (max-width: 375px) {
-
+    .accordionlocation{
+        width: 335px;
+    }
+    .accordionlocation_content{
+        width: 335px;
+    }
+    
     .accordion {
         width: 335px;
         height: 29.93px;
@@ -108,5 +184,9 @@
     .accordion-container {
         margin-top: 20px;
         margin-left:-2px;
+    }
+
+    .accordion-container-right{
+        margin-right: unset;
     }
 }

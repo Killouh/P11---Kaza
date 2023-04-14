@@ -5,7 +5,7 @@ import data from "../../data/data.json";
 import './CardsPage.css';
 
 // ------- COMPONENTS -------------
-import Accordion from '../../components/Accordion/Accordion';
+import AccordionLocation from '../../components/AccordionLocation/AccordionLocation';
 import Avatar from '../../components/Avatar/Avatar';
 import Tag from '../../components/Tag/Tag';
 import Slideshow from '../../components/Slideshow/Slideshow';
@@ -63,15 +63,13 @@ return (
 
             <div className="main-container-accordion">
                 <div className="accordion-container-left">
-                    <Accordion
-                        location={true}
+                    <AccordionLocation
                         title="Description"
                         content={location.description}
                     />
                 </div>
                 <div className="accordion-container-right">
-                    <Accordion
-                        location={true}
+                    <AccordionLocation
                         title="Equipement"
                         content={
                             <ul>

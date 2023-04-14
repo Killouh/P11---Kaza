@@ -42,10 +42,10 @@
 
 .main-container-accordion {
     display: flex;
-    margin-left: 10.5%;
+    margin-left: 10%;
     flex-direction: row; 
-    justify-content: space-between;
-    width: 70%;
+    gap : 8%;
+    width: 50%;
 
 }
 
