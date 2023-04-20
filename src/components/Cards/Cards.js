@@ -6,12 +6,12 @@ import { useParams} from "react-router-dom";
 
 
 export default function LocationCard(props) {
-    const [location, setLocation] = useState({title:"",description:"",cover:"", tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}}); // Version page detail, revoir les données appellées
+    const [location, setLocation] = useState({title:"",description:"",cover:"", tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}});
     let { id } = useParams();
 
     useEffect (function (){
-        let locationDetails = data.find(location => location.id === id); // voir fonctions flechée
-        setLocation(locationDetails) // voir setlocation/state
+        let locationDetails = data.find(location => location.id === id);
+        setLocation(locationDetails) 
     },[id]);
     return (
 

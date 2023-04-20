@@ -18,13 +18,13 @@ import Stars from '../../components/Stars/Stars';
 
 
 export default function LocationPage() {
-    const [location, setLocation] = useState({title:"",description:"",cover:"", tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}}); // Version page detail, revoir les données appellées
+    const [location, setLocation] = useState({title:"",description:"",cover:"", tags:[], equipments:[], pictures:[], rating:'', host:{'name':'', 'picture':''}});
     let { id } = useParams();
     const navigate = useNavigate();
 
     useEffect (function (){
-      const  locationDetails = data.find(location => location.id === id); // voir fonctions flechée
-        setLocation(locationDetails) // voir setlocation/state
+      const  locationDetails = data.find(location => location.id === id);
+        setLocation(locationDetails)
 
       // Vérification de l'existence de l'ID dans le tableau de données
         if (!locationDetails) {
