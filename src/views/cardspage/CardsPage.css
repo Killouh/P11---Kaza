@@ -12,13 +12,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: auto;
 }
 
 .location_header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 3%;
 }
 
 .location_subheader {
@@ -32,7 +33,6 @@
 
 .main-container-tag {
     display: flex;
-    margin-left: 108px;
 }
 
 .main-container-stars {
@@ -50,10 +50,6 @@
 }
 
 .title_locationpage {
-    left: 6.94%;
-    right: 48.96%;
-    top: 55.96%;
-    bottom: 39.06%;
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -62,7 +58,6 @@
     display: flex;
     align-items: flex-end;
     color: #FF6060;
-    margin-left: 108px;
 }
 
 .subtitle_locationpage {
@@ -74,9 +69,10 @@
     display: flex;
     align-items: flex-end;
     color: #FF6060;
-    margin-left: 108px;
     margin-top: -25px;
 }
+
+
 
 
 @media (max-width: 375px) {
