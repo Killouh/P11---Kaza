@@ -20,13 +20,19 @@
 .img_img_about {
     border-radius: 25px;
     object-fit: cover;
+    width: 80%;
 }
 
 .container {
     margin: auto;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1000px) {
+
+    .body-about {
+        margin-top: 30px;
+    }
+    
 
     .background_title_about {
         width: 90%;

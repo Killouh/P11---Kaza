@@ -28,7 +28,34 @@ nav{
     text-decoration: underline;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
+    .header{
+        padding-top: 40px;
+        justify-content: space-between;
+        align-content: center;
+        gap: 40px;
+        width: 80%;
+        margin: auto;
+        padding-left: unset;
+    }
+    .logoKasa{
+        width: 130px;
+        height: 47px;
+    }
+    
+    nav{
+        gap: 20px;
+        width: 350px;
+    }
+    
+    .navText{
+        font-size: 18px;
+        width: 100%;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 376px) {
     .header{
         padding-top: 40px;
         justify-content: space-between;

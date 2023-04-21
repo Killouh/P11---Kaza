@@ -130,12 +130,12 @@
     position: relative;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1000px) {
     .accordionlocation{
-        width: 335px;
+        width: 100%;
     }
     .accordionlocation_content{
-        width: 335px;
+        width: 100%;
     }
     
     .accordion {
@@ -163,6 +163,10 @@
         padding: 18px;
         padding-top: 5px;
 
+    }
+
+    .accordionlocation_text{
+        padding-top: 10px;
     }
 
     .container{

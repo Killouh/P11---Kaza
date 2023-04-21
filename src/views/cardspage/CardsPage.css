@@ -3,6 +3,13 @@
     margin-bottom: 200px;
 }
 
+ul {
+    list-style-type: none;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 10px;
+  }
+
 .slideshow_location {
     margin-top: 35px;
 }
@@ -73,10 +80,20 @@
     margin-top: -25px;
 }
 
+.accordion-container-right{
+width: 45%;
+margin-left: 10px;
+}
+
+.accordion-container-left{
+   
+    width: 45%;
+}
 
 
 
-@media (max-width: 375px) {
+
+@media (max-width: 1000px) {
 
     .body_location_page{
         display: flex;
@@ -143,5 +160,14 @@
         width: 90%;
         margin: auto;
     }
+
+    .accordion-container-right{
+        width: 100%;
+        margin-left: 0px;
+        }
+        
+        .accordion-container-left{
+            width: 100%;
+        }
 }
 

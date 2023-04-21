@@ -1,130 +1,152 @@
 /* BODY HOME */
 .body-home {
-    margin-top: 60px;
-    max-width: 1600px;
-    margin: auto;
+  margin-top: 60px;
+  max-width: 1600px;
+  margin: auto;
 }
 
 /* BACKGROUND TITLE */
-.background_title{
-    width: 90%;
-    margin: 20px auto;
-    background: #F7F7F7;
-    border-radius: 25px;
+.background_title {
+  width: 90%;
+  margin: 20px auto;
+  background: #f7f7f7;
+  border-radius: 25px;
 }
 
 .title_img {
-    position: relative;
+  position: relative;
 }
 
 .img_home {
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  object-fit: cover;
 }
 
 .title_home {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 142.6%;
-    text-shadow: 2px 2px 4px #000000;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 142.6%;
+  text-shadow: 2px 2px 4px #000000;
 }
-
 
 /* LOCATIONCARD */
 .background {
-    width: 90%;
-    margin: 20px auto;
-    background: #F7F7F7;
-    border-radius: 25px;
+  width: 90%;
+  margin: 20px auto;
+  background: #f7f7f7;
+  border-radius: 25px;
 }
 
 .location-card-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .location-card-container {
-    position: relative;
-    margin: 20px;
-    max-width: 340px;
+  position: relative;
+  margin: 20px;
+  max-width: 340px;
 }
 
 .location-card-img {
-    height: 340px;
-    width: 100%;  
-    object-fit: cover;
-    border-radius: 10px;
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .location-card-title {
-    position: absolute;
-    bottom: 70px;
-    left: 0;
-    padding: 5px;
-    margin: 0;
-    font-size: 15px;
-    font-weight: bold;
-    width: 40%;
-    height: 20px;
-    text-shadow: 2px 2px 4px #000000;
-    color: white;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  padding: 5px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  width: 40%;
+  height: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
 }
 
-@media (max-width: 375px) {
-
-.body-home{
-    margin-left:-3%;
-    width: 375px;
-    }
-    /* BACKGROUND TITLE */
-.background_title{
-    height: 111px;
-    width: 80%;
-}
-
-.title_img {
-    height: 100%;
-}
-
-.img_home {
-    height: 100%;
-    border-radius: 10px;
-}
-
-.title_home {
-    padding-left: 25px;
-    left: 40%;
-    font-size: 20px;
+@media (max-width: 1060px) {
+  .title_home {
+    padding: auto;
+    font-size: 2.1em;
     width: 50%;
     height: 50px;
     top: 27%;
     text-shadow: 2px 2px 6px #000000;
+  }
 }
 
-/* LOCATIONCARD */
-
-.background {
-    width: 100%;
-    background: white;
-}
-.location-card-container{
-    width: 80%;
-}
-
-.location-card-img{
-    height: 300px;
-}
+@media (max-width: 840px) {
+    .title_home {
+        font-size: 1.7em;
+    }
+  }
 
 
-}
+
+  @media (max-width: 660px) {
+    .title_home {
+        font-size: 1.5em; 
+    }
+  }
+
+  @media (max-width: 490px) {
+    .body-home {
+        margin: auto;
+        width: 375px;
+      }
+      /* BACKGROUND TITLE */
+      .background_title {
+        height: 111px;
+        width: 80%;
+      }
+    
+      .title_img {
+        height: 100%;
+      }
+    
+      .img_home {
+        height: 100%;
+        border-radius: 10px;
+      }
+    
+      .title_home {
+        padding-left: 25px;
+        left: 40%;
+        font-size: 20px;
+        width: 50%;
+        height: 50px;
+        top: 27%;
+        text-shadow: 2px 2px 6px #000000;
+      }
+    
+      /* LOCATIONCARD */
+    
+      .background {
+        width: 100%;
+        background: white;
+      }
+      .location-card-container {
+        width: 80%;
+      }
+    
+      .location-card-img {
+        height: 300px;
+      }
+  }
+
