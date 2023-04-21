@@ -2,8 +2,7 @@
 .body-home {
     margin-top: 60px;
     max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 /* BACKGROUND TITLE */
@@ -83,9 +82,15 @@
 }
 
 @media (max-width: 375px) {
+
+.body-home{
+    margin-left:-3%;
+    width: 375px;
+    }
     /* BACKGROUND TITLE */
 .background_title{
     height: 111px;
+    width: 80%;
 }
 
 .title_img {
@@ -103,6 +108,7 @@
     font-size: 20px;
     width: 50%;
     height: 50px;
+    top: 27%;
     text-shadow: 2px 2px 6px #000000;
 }
 
@@ -112,4 +118,13 @@
     width: 100%;
     background: white;
 }
+.location-card-container{
+    width: 80%;
+}
+
+.location-card-img{
+    height: 300px;
+}
+
+
 }

@@ -22,14 +22,19 @@ nav{
     font-size: 24px;
 }
 
+.navText:hover{
+    text-decoration: underline;
+}
+
 @media (max-width: 375px) {
     .header{
         padding-top: 40px;
         justify-content: space-between;
         align-content: center;
         gap: 40px;
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 80%;
+        margin: auto;
+        padding-left: unset;
     }
     .logoKasa{
         width: 130px;
@@ -44,6 +49,7 @@ nav{
     .navText{
         font-size: 18px;
         width: 100%;
+        white-space: nowrap;
     }
     
 
