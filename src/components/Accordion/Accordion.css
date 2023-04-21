@@ -137,7 +137,7 @@
     }
     
     .accordion {
-        width: 335px;
+        width: 100%;
         height: 29.93px;
     }
 
@@ -163,14 +163,19 @@
 
     }
 
+    .container{
+        margin: auto;
+        width: 100%;
+    }
+
     .accordion__content {
         width: 335px;
     }
 
     .accordion-container {
         margin-top: 20px;
-        margin-left:-2px;
     }
+
 
     .accordion-container-right{
         margin-right: unset;
