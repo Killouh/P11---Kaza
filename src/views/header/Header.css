@@ -22,7 +22,9 @@ nav{
     font-size: 24px;
 }
 
-.navText:hover{
+
+
+.navText.active{
     text-decoration: underline;
 }
 
